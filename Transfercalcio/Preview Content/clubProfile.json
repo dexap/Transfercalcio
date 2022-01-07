@@ -1,0 +1,208 @@
+{
+  "internationalTeamFlag": "",
+  "mainFacts": {
+    "id": "631",
+    "fullName": "Chelsea Football Club",
+    "street": "Fulham Road",
+    "postalCode": "SW6 1HS",
+    "city": "London",
+    "phone": "+44 (20) 73869",
+    "fax": "+44 (20) 73814",
+    "homepage": "www.chelseafc.com",
+    "founding": "10.03.1905",
+    "members": "30000",
+    "membersDate": "14.03.2018",
+    "countryName": "England",
+    "countryID": "189",
+    "countryImage": "https://tmssl.akamaized.net/images/flagge/verysmall/189.png?lm=1520611569",
+    "avgAge": "27.00",
+    "squadSize": "27",
+    "legionaries": "18",
+    "internationalRank": "",
+    "nationalPlayer": 17
+  },
+  "stadium": {
+    "id": "414",
+    "name": "Stamford Bridge",
+    "street": "Fulham Road",
+    "postalCode": "SW6 1HS",
+    "city": "London",
+    "phoneTicketCenter": "+44 207 915 2900",
+    "faxTicketCenter": "",
+    "homepage": "",
+    "ticketCenter": "www.chelseafc.com/page/TicketsHome/0,,10268,00.html",
+    "constructionYear": "1877",
+    "totalCapacity": "40853",
+    "standingRoom": "0",
+    "seats": "40853",
+    "image": "https://tmssl.akamaized.net/images/foto/stadionnormal/fc-chelsea-stamford-bridge-2021-1629208490-69136.jpg?lm=1629208513"
+  },
+  "historicImages": [
+    "https://tmssl.akamaized.net/images/wappen/medium/631_1400764022.png?lm=1400764020",
+    "https://tmssl.akamaized.net/images/wappen/medium/631_1400764080.png?lm=1400764078",
+    "https://tmssl.akamaized.net/images/wappen/medium/631_1400764132.png?lm=1400764130",
+    "https://tmssl.akamaized.net/images/wappen/medium/631_1462278625.png?lm=1462278625",
+    "https://tmssl.akamaized.net/images/wappen/medium/631_1628083076.png?lm=1628083076"
+  ],
+  "successes": [
+    {
+      "number": "6",
+      "name": "Englischer Meister",
+      "id": "12",
+      "additionalData": {
+        "competitionId": "GB1",
+        "competitionTypeId": "1",
+        "cycle": null,
+        "seasonIds": [
+          "2016",
+          "2014",
+          "2009",
+          "2005",
+          "2004",
+          "1954"
+        ]
+      }
+    },
+    {
+      "number": "2",
+      "name": "Champions League-Sieger",
+      "id": "4",
+      "additionalData": {
+        "competitionId": "CL",
+        "competitionTypeId": "10",
+        "cycle": null,
+        "seasonIds": [
+          "2020",
+          "2011"
+        ]
+      }
+    },
+    {
+      "number": "8",
+      "name": "Englischer Pokalsieger",
+      "id": "29",
+      "additionalData": {
+        "competitionId": "FAC",
+        "competitionTypeId": "8",
+        "cycle": null,
+        "seasonIds": [
+          "2017",
+          "2011",
+          "2009",
+          "2008",
+          "2006",
+          "1999",
+          "1996",
+          "1969"
+        ]
+      }
+    },
+    {
+      "number": "5",
+      "name": "Englischer Ligapokalsieger",
+      "id": "47",
+      "additionalData": {
+        "competitionId": "CGB",
+        "competitionTypeId": "8",
+        "cycle": null,
+        "seasonIds": [
+          "2014",
+          "2006",
+          "2004",
+          "1997",
+          "1964"
+        ]
+      }
+    },
+    {
+      "number": "2",
+      "name": "Europa-League-Sieger",
+      "id": "264",
+      "additionalData": {
+        "competitionId": "EL",
+        "competitionTypeId": "10",
+        "cycle": null,
+        "seasonIds": [
+          "2018",
+          "2012"
+        ]
+      }
+    },
+    {
+      "number": "2",
+      "name": "Europapokal-der-Pokalsieger-Sieger",
+      "id": "53",
+      "additionalData": {
+        "competitionId": "EPP",
+        "competitionTypeId": "10",
+        "cycle": null,
+        "seasonIds": [
+          "1997",
+          "1970"
+        ]
+      }
+    },
+    {
+      "number": "2",
+      "name": "UEFA-Supercup-Sieger",
+      "id": "354",
+      "additionalData": {
+        "competitionId": "USC",
+        "competitionTypeId": "13",
+        "cycle": null,
+        "seasonIds": [
+          "2021",
+          "1998"
+        ]
+      }
+    },
+    {
+      "number": "4",
+      "name": "Englischer Superpokalsieger",
+      "id": "316",
+      "additionalData": {
+        "competitionId": "GBCS",
+        "competitionTypeId": "9",
+        "cycle": null,
+        "seasonIds": [
+          "2009",
+          "2005",
+          "2000",
+          "1955"
+        ]
+      }
+    }
+  ],
+  "additionalTeams": [
+    {
+      "image": "https://tmssl.akamaized.net/images/wappen/medium/631.png?lm=1628160548",
+      "name": "FC Chelsea",
+      "id": "631"
+    },
+    {
+      "image": "https://tmssl.akamaized.net/images/wappen/medium/9250.png?lm=1628074311",
+      "name": "FC Chelsea U23",
+      "id": "9250"
+    },
+    {
+      "image": "https://tmssl.akamaized.net/images/wappen/medium/6918.png?lm=1628160548",
+      "name": "FC Chelsea U18",
+      "id": "6918"
+    },
+    {
+      "image": "https://tmssl.akamaized.net/images/wappen/medium/41573.png?lm=1628160548",
+      "name": "FC Chelsea UEFA U19",
+      "id": "41573"
+    },
+    {
+      "image": "https://tmssl.akamaized.net/images/wappen/medium/50677.png?lm=1628074311",
+      "name": "FC Chelsea Jugend",
+      "id": "50677"
+    }
+  ],
+  "share": {
+    "title": "Vereinsprofil FC Chelsea",
+    "url": "https://www.transfermarkt.de/fc-chelsea/startseite/verein/631",
+    "description": "Dies ist die Vereins-Startseite. Hier gibt es neben dem aktuellen Kader vereinsrelevante News, aktuelle Gerüchte und alle wichtigen Infos rund um den Spielbetrieb des Klubs."
+  }
+}

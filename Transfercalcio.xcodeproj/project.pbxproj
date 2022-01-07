@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AE1CA1F190A65CC521DDE7F /* Pods_Transfercalcio_TransfercalcioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FCD9D96466E249CE70365A9 /* Pods_Transfercalcio_TransfercalcioUITests.framework */; };
+		9C909ABEECC541D141FEDF07 /* Pods_TransfercalcioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E94BE359C48E8472A6B1FC /* Pods_TransfercalcioTests.framework */; };
+		B58073CC27884CAA00809E72 /* clubProfile.json in Resources */ = {isa = PBXBuildFile; fileRef = B58073CB27884CAA00809E72 /* clubProfile.json */; };
+		B58073CE2788502800809E72 /* ClubHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58073CD2788502800809E72 /* ClubHeaderView.swift */; };
+		B586805F2788762D00F1A2A5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B586805E2788762D00F1A2A5 /* Extensions.swift */; };
+		B58680632788828100F1A2A5 /* clubHeader.json in Resources */ = {isa = PBXBuildFile; fileRef = B58680622788828100F1A2A5 /* clubHeader.json */; };
 		B5C935342786FE5A00853AE4 /* TransfercalcioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C935332786FE5A00853AE4 /* TransfercalcioApp.swift */; };
 		B5C935362786FE5A00853AE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C935352786FE5A00853AE4 /* ContentView.swift */; };
 		B5C935382786FE5B00853AE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C935372786FE5B00853AE4 /* Assets.xcassets */; };
@@ -14,6 +20,11 @@
 		B5C935452786FE5B00853AE4 /* TransfercalcioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C935442786FE5B00853AE4 /* TransfercalcioTests.swift */; };
 		B5C9354F2786FE5B00853AE4 /* TransfercalcioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C9354E2786FE5B00853AE4 /* TransfercalcioUITests.swift */; };
 		B5C935512786FE5B00853AE4 /* TransfercalcioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C935502786FE5B00853AE4 /* TransfercalcioUITestsLaunchTests.swift */; };
+		B5C9355E2786FEAC00853AE4 /* ClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C9355D2786FEAC00853AE4 /* ClubView.swift */; };
+		B5C935622786FFE100853AE4 /* ClubProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C935612786FFE100853AE4 /* ClubProfileManager.swift */; };
+		B5C935642787676300853AE4 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C935632787676300853AE4 /* ModelData.swift */; };
+		B5C9356A2787762000853AE4 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C935692787762000853AE4 /* LoadingView.swift */; };
+		BF0D8FFDBAD1BBCC133D5E41 /* Pods_Transfercalcio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF867FF2BCEF9C59EE8BA5F2 /* Pods_Transfercalcio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12ADADDA9EC75087CEA592A7 /* Pods-Transfercalcio-TransfercalcioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transfercalcio-TransfercalcioUITests.release.xcconfig"; path = "Target Support Files/Pods-Transfercalcio-TransfercalcioUITests/Pods-Transfercalcio-TransfercalcioUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2CF6D91ECBB7F03C7DB409CA /* Pods-Transfercalcio-TransfercalcioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transfercalcio-TransfercalcioUITests.debug.xcconfig"; path = "Target Support Files/Pods-Transfercalcio-TransfercalcioUITests/Pods-Transfercalcio-TransfercalcioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FCD9D96466E249CE70365A9 /* Pods_Transfercalcio_TransfercalcioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Transfercalcio_TransfercalcioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BAF32B49BAEAEBBEEF97E8 /* Pods-Transfercalcio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transfercalcio.release.xcconfig"; path = "Target Support Files/Pods-Transfercalcio/Pods-Transfercalcio.release.xcconfig"; sourceTree = "<group>"; };
+		9477F1D2C670641BC689EC70 /* Pods-Transfercalcio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transfercalcio.debug.xcconfig"; path = "Target Support Files/Pods-Transfercalcio/Pods-Transfercalcio.debug.xcconfig"; sourceTree = "<group>"; };
+		9F17A8850CD5554309D56BA2 /* Pods-TransfercalcioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransfercalcioTests.debug.xcconfig"; path = "Target Support Files/Pods-TransfercalcioTests/Pods-TransfercalcioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3E94BE359C48E8472A6B1FC /* Pods_TransfercalcioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransfercalcioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58073CB27884CAA00809E72 /* clubProfile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = clubProfile.json; sourceTree = "<group>"; };
+		B58073CD2788502800809E72 /* ClubHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubHeaderView.swift; sourceTree = "<group>"; };
+		B586805E2788762D00F1A2A5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B58680622788828100F1A2A5 /* clubHeader.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = clubHeader.json; sourceTree = "<group>"; };
 		B5C935302786FE5A00853AE4 /* Transfercalcio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transfercalcio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C935332786FE5A00853AE4 /* TransfercalcioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransfercalcioApp.swift; sourceTree = "<group>"; };
 		B5C935352786FE5A00853AE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +66,12 @@
 		B5C9354A2786FE5B00853AE4 /* TransfercalcioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransfercalcioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C9354E2786FE5B00853AE4 /* TransfercalcioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransfercalcioUITests.swift; sourceTree = "<group>"; };
 		B5C935502786FE5B00853AE4 /* TransfercalcioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransfercalcioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B5C9355D2786FEAC00853AE4 /* ClubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubView.swift; sourceTree = "<group>"; };
+		B5C935612786FFE100853AE4 /* ClubProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubProfileManager.swift; sourceTree = "<group>"; };
+		B5C935632787676300853AE4 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		B5C935692787762000853AE4 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		EF867FF2BCEF9C59EE8BA5F2 /* Pods_Transfercalcio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Transfercalcio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFB2F744C0E9E7C133D9D8E /* Pods-TransfercalcioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransfercalcioTests.release.xcconfig"; path = "Target Support Files/Pods-TransfercalcioTests/Pods-TransfercalcioTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF0D8FFDBAD1BBCC133D5E41 /* Pods_Transfercalcio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C909ABEECC541D141FEDF07 /* Pods_TransfercalcioTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +95,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AE1CA1F190A65CC521DDE7F /* Pods_Transfercalcio_TransfercalcioUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96C33F45D123789AFDBB53B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9477F1D2C670641BC689EC70 /* Pods-Transfercalcio.debug.xcconfig */,
+				74BAF32B49BAEAEBBEEF97E8 /* Pods-Transfercalcio.release.xcconfig */,
+				2CF6D91ECBB7F03C7DB409CA /* Pods-Transfercalcio-TransfercalcioUITests.debug.xcconfig */,
+				12ADADDA9EC75087CEA592A7 /* Pods-Transfercalcio-TransfercalcioUITests.release.xcconfig */,
+				9F17A8850CD5554309D56BA2 /* Pods-TransfercalcioTests.debug.xcconfig */,
+				FAFB2F744C0E9E7C133D9D8E /* Pods-TransfercalcioTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9BA2E88439DFB5EFCD8BDD52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF867FF2BCEF9C59EE8BA5F2 /* Pods_Transfercalcio.framework */,
+				5FCD9D96466E249CE70365A9 /* Pods_Transfercalcio_TransfercalcioUITests.framework */,
+				A3E94BE359C48E8472A6B1FC /* Pods_TransfercalcioTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B5C935272786FE5A00853AE4 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +132,8 @@
 				B5C935432786FE5B00853AE4 /* TransfercalcioTests */,
 				B5C9354D2786FE5B00853AE4 /* TransfercalcioUITests */,
 				B5C935312786FE5A00853AE4 /* Products */,
+				96C33F45D123789AFDBB53B9 /* Pods */,
+				9BA2E88439DFB5EFCD8BDD52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +150,14 @@
 		B5C935322786FE5A00853AE4 /* Transfercalcio */ = {
 			isa = PBXGroup;
 			children = (
+				B5C9355F2786FEBC00853AE4 /* Views */,
+				B5C935602786FFD000853AE4 /* Managers */,
 				B5C935332786FE5A00853AE4 /* TransfercalcioApp.swift */,
 				B5C935352786FE5A00853AE4 /* ContentView.swift */,
+				B5C935692787762000853AE4 /* LoadingView.swift */,
 				B5C935372786FE5B00853AE4 /* Assets.xcassets */,
 				B5C935392786FE5B00853AE4 /* Preview Content */,
+				B586805E2788762D00F1A2A5 /* Extensions.swift */,
 			);
 			path = Transfercalcio;
 			sourceTree = "<group>";
@@ -106,6 +166,9 @@
 			isa = PBXGroup;
 			children = (
 				B5C9353A2786FE5B00853AE4 /* Preview Assets.xcassets */,
+				B5C935632787676300853AE4 /* ModelData.swift */,
+				B58073CB27884CAA00809E72 /* clubProfile.json */,
+				B58680622788828100F1A2A5 /* clubHeader.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -127,6 +190,23 @@
 			path = TransfercalcioUITests;
 			sourceTree = "<group>";
 		};
+		B5C9355F2786FEBC00853AE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5C9355D2786FEAC00853AE4 /* ClubView.swift */,
+				B58073CD2788502800809E72 /* ClubHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B5C935602786FFD000853AE4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B5C935612786FFE100853AE4 /* ClubProfileManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5C935542786FE5B00853AE4 /* Build configuration list for PBXNativeTarget "Transfercalcio" */;
 			buildPhases = (
+				D2B1E37AA736F55DF1896C30 /* [CP] Check Pods Manifest.lock */,
 				B5C9352C2786FE5A00853AE4 /* Sources */,
 				B5C9352D2786FE5A00853AE4 /* Frameworks */,
 				B5C9352E2786FE5A00853AE4 /* Resources */,
+				538D4B00F30C8FE872B3B05C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +233,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5C935572786FE5B00853AE4 /* Build configuration list for PBXNativeTarget "TransfercalcioTests" */;
 			buildPhases = (
+				8B29332FE2503F7CAA154C4B /* [CP] Check Pods Manifest.lock */,
 				B5C9353C2786FE5B00853AE4 /* Sources */,
 				B5C9353D2786FE5B00853AE4 /* Frameworks */,
 				B5C9353E2786FE5B00853AE4 /* Resources */,
@@ -169,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5C9355A2786FE5B00853AE4 /* Build configuration list for PBXNativeTarget "TransfercalcioUITests" */;
 			buildPhases = (
+				50201AFD0F710B7AE46F9591 /* [CP] Check Pods Manifest.lock */,
 				B5C935462786FE5B00853AE4 /* Sources */,
 				B5C935472786FE5B00853AE4 /* Frameworks */,
 				B5C935482786FE5B00853AE4 /* Resources */,
+				FBBBC41DA7E9112489448172 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +316,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58073CC27884CAA00809E72 /* clubProfile.json in Resources */,
 				B5C9353B2786FE5B00853AE4 /* Preview Assets.xcassets in Resources */,
+				B58680632788828100F1A2A5 /* clubHeader.json in Resources */,
 				B5C935382786FE5B00853AE4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,13 +339,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50201AFD0F710B7AE46F9591 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Transfercalcio-TransfercalcioUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		538D4B00F30C8FE872B3B05C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Transfercalcio/Pods-Transfercalcio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Transfercalcio/Pods-Transfercalcio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Transfercalcio/Pods-Transfercalcio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B29332FE2503F7CAA154C4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TransfercalcioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2B1E37AA736F55DF1896C30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Transfercalcio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBBBC41DA7E9112489448172 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Transfercalcio-TransfercalcioUITests/Pods-Transfercalcio-TransfercalcioUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Transfercalcio-TransfercalcioUITests/Pods-Transfercalcio-TransfercalcioUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Transfercalcio-TransfercalcioUITests/Pods-Transfercalcio-TransfercalcioUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B5C9352C2786FE5A00853AE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58073CE2788502800809E72 /* ClubHeaderView.swift in Sources */,
+				B5C9355E2786FEAC00853AE4 /* ClubView.swift in Sources */,
+				B5C935622786FFE100853AE4 /* ClubProfileManager.swift in Sources */,
+				B586805F2788762D00F1A2A5 /* Extensions.swift in Sources */,
+				B5C935642787676300853AE4 /* ModelData.swift in Sources */,
 				B5C935362786FE5A00853AE4 /* ContentView.swift in Sources */,
 				B5C935342786FE5A00853AE4 /* TransfercalcioApp.swift in Sources */,
+				B5C9356A2787762000853AE4 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +609,7 @@
 		};
 		B5C935552786FE5B00853AE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9477F1D2C670641BC689EC70 /* Pods-Transfercalcio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,12 +633,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B5C935562786FE5B00853AE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74BAF32B49BAEAEBBEEF97E8 /* Pods-Transfercalcio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,12 +663,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		B5C935582786FE5B00853AE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F17A8850CD5554309D56BA2 /* Pods-TransfercalcioTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +690,7 @@
 		};
 		B5C935592786FE5B00853AE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAFB2F744C0E9E7C133D9D8E /* Pods-TransfercalcioTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +711,7 @@
 		};
 		B5C9355B2786FE5B00853AE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF6D91ECBB7F03C7DB409CA /* Pods-Transfercalcio-TransfercalcioUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -529,6 +730,7 @@
 		};
 		B5C9355C2786FE5B00853AE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12ADADDA9EC75087CEA592A7 /* Pods-Transfercalcio-TransfercalcioUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

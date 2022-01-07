@@ -1,0 +1,27 @@
+
+{
+  "club": {
+    "id": "631",
+    "name": "FC Chelsea",
+    "image": "https://tmssl.akamaized.net/images/wappen/medium/631.png?lm=1628160548",
+    "countryImage": "https://tmssl.akamaized.net/images/flagge/verysmall/189.png?lm=1520611569",
+    "countryID": "189",
+    "rank": "2",
+    "leagueID": "GB1",
+    "leagueName": "Premier League",
+    "leagueImage": "https://tmssl.akamaized.net/images/logo/normal/gb1.png?lm=1521104656",
+    "leagueLevel": "1.Liga",
+    "coachID": "7471",
+    "coachName": "Thomas Tuchel",
+    "coachContractUntil": 1719698400,
+    "marketValue": "878,50",
+    "marketValueCurrency": "€",
+    "marketValueNumeral": "Mio.",
+    "marketValueUnformatted": 878500000,
+    "nationalTeamFlag": "",
+    "selectedSeasonID": "2021",
+    "internationalRank": "",
+    "newCoachID": "",
+    "newCoachStartAt": ""
+  }
+}
