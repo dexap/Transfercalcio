@@ -21,8 +21,7 @@ class ClubProfileManager {
         var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = "GET"
         urlRequest.setValue("transfermarket.p.rapidapi.com", forHTTPHeaderField: "x-rapidapi-host")
-        urlRequest.setValue("106f5b3a01mshaa222632dd44131p17cc4djsn9e2c7e927b93", forHTTPHeaderField: "x-rapidapi-key")
-
+        urlRequest.setValue(token, forHTTPHeaderField: "x-rapidapi-key")
         
         let (data, response) = try await URLSession.shared.data(for: urlRequest)
         

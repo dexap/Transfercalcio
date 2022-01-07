@@ -13,6 +13,7 @@
 		B58073CE2788502800809E72 /* ClubHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58073CD2788502800809E72 /* ClubHeaderView.swift */; };
 		B586805F2788762D00F1A2A5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B586805E2788762D00F1A2A5 /* Extensions.swift */; };
 		B58680632788828100F1A2A5 /* clubHeader.json in Resources */ = {isa = PBXBuildFile; fileRef = B58680622788828100F1A2A5 /* clubHeader.json */; };
+		B58680652788B94000F1A2A5 /* token.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58680642788B94000F1A2A5 /* token.swift */; };
 		B5C935342786FE5A00853AE4 /* TransfercalcioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C935332786FE5A00853AE4 /* TransfercalcioApp.swift */; };
 		B5C935362786FE5A00853AE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C935352786FE5A00853AE4 /* ContentView.swift */; };
 		B5C935382786FE5B00853AE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C935372786FE5B00853AE4 /* Assets.xcassets */; };
@@ -56,6 +57,7 @@
 		B58073CD2788502800809E72 /* ClubHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubHeaderView.swift; sourceTree = "<group>"; };
 		B586805E2788762D00F1A2A5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		B58680622788828100F1A2A5 /* clubHeader.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = clubHeader.json; sourceTree = "<group>"; };
+		B58680642788B94000F1A2A5 /* token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = token.swift; sourceTree = "<group>"; };
 		B5C935302786FE5A00853AE4 /* Transfercalcio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transfercalcio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C935332786FE5A00853AE4 /* TransfercalcioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransfercalcioApp.swift; sourceTree = "<group>"; };
 		B5C935352786FE5A00853AE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -150,11 +152,10 @@
 		B5C935322786FE5A00853AE4 /* Transfercalcio */ = {
 			isa = PBXGroup;
 			children = (
+				B58680642788B94000F1A2A5 /* token.swift */,
 				B5C9355F2786FEBC00853AE4 /* Views */,
 				B5C935602786FFD000853AE4 /* Managers */,
 				B5C935332786FE5A00853AE4 /* TransfercalcioApp.swift */,
-				B5C935352786FE5A00853AE4 /* ContentView.swift */,
-				B5C935692787762000853AE4 /* LoadingView.swift */,
 				B5C935372786FE5B00853AE4 /* Assets.xcassets */,
 				B5C935392786FE5B00853AE4 /* Preview Content */,
 				B586805E2788762D00F1A2A5 /* Extensions.swift */,
@@ -193,8 +194,10 @@
 		B5C9355F2786FEBC00853AE4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B5C935352786FE5A00853AE4 /* ContentView.swift */,
 				B5C9355D2786FEAC00853AE4 /* ClubView.swift */,
 				B58073CD2788502800809E72 /* ClubHeaderView.swift */,
+				B5C935692787762000853AE4 /* LoadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -447,6 +450,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58680652788B94000F1A2A5 /* token.swift in Sources */,
 				B58073CE2788502800809E72 /* ClubHeaderView.swift in Sources */,
 				B5C9355E2786FEAC00853AE4 /* ClubView.swift in Sources */,
 				B5C935622786FFE100853AE4 /* ClubProfileManager.swift in Sources */,
